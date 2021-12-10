@@ -39,7 +39,9 @@ body {
 body,
 input,
 button,
-textarea {
+textarea,
+a {
   font-family: 'Roboto Slab', serif;
   color: var(--color-text);
+  text-decoration: none;
 }
