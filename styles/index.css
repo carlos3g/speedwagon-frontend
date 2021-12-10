@@ -82,3 +82,36 @@ footer > div > h1 + p {
 footer > div > p + p {
   margin-top: 0.5rem;
 }
+
+@media (max-width: 1184px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main > div {
+    margin-bottom: 30px;
+  }
+
+  main #title {
+    font-size: 3.8rem;
+    text-align: left;
+  }
+
+  main > div > a {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5.5rem;
+    border-radius: 0;
+  }
+
+  main > img {
+    width: 273px;
+  }
+
+  footer {
+    min-height: 19.5rem;
+  }
+}
