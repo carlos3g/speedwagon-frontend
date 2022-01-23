@@ -9,10 +9,87 @@
     />
     <link rel="icon" type="image/png" href="/images/favicon.png" />
     <link href="./styles/global.css" rel="stylesheet" />
-    <link href="./styles/detalhes-do-produto.css" rel="stylesheet" />
-    <title>Detalhes do produto | Speedwagon</title>
+    <link rel="stylesheet" href="./styles/detalhes-do-produto.css" />
+    <title>Detalhes do produto</title>
   </head>
+
   <body>
-    <script src="detalhes-do-produto.html"></script>
+    <header>
+      <a href="#">
+        <img src="./images/SW..svg" alt="Logo" />
+      </a>
+    </header>
+
+    <main>
+      <div id="carrossel">
+        <ul>
+          <li>
+            <div class="carrossel-container">
+              <img src="./images/image.svg" alt="img1" />
+            </div>
+          </li>
+
+          <li>
+            <div class="carrossel-container">
+              <img src="./images/image.svg" alt="img1" />
+            </div>
+          </li>
+
+          <li>
+            <div class="carrossel-container">
+              <img src="./images/image.svg" alt="img1" />
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="images">
+        <div class="thumbnails">
+          <section></section>
+          <section></section>
+          <section></section>
+          <section></section>
+          <section></section>
+        </div>
+        <img src="./images/image.svg" alt="" />
+      </div>
+
+      <div class="details">
+        <h3>Tesla Model Y - 2019</h3>
+        <div class="filds">
+          <div class="ano">
+            <p>Ano</p>
+            <div class="box1">
+              <input type="text" value="2019" />
+            </div>
+          </div>
+          <div class="combustivel">
+            <p>Combustível</p>
+            <div class="box2">
+              <input type="text" value="none" />
+            </div>
+          </div>
+          <div class="IPVA">
+            <p>IPVA Pago</p>
+            <div class="box3">
+              <input type="text" value="none" />
+            </div>
+          </div>
+          <div class="Km">
+            <p>Km rodados</p>
+            <div class="box4">
+              <input type="text" value="100.000" />
+            </div>
+          </div>
+          <div class="complementar">
+            <p>Complementar</p>
+          </div>
+          <div class="box5">
+            <input type="text" value="Dados complementares ficaram aqui" />
+          </div>
+        </div>
+        <button>Entre em contato</button>
+      </div>
+    </main>
   </body>
 </html>
